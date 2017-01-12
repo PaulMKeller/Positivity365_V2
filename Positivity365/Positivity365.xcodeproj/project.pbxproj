@@ -16,6 +16,8 @@
 		DA0C4A241E2614C300C8F86B /* Positivity365UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C4A231E2614C300C8F86B /* Positivity365UITests.swift */; };
 		DA0C4A321E26159100C8F86B /* MonthsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C4A311E26159100C8F86B /* MonthsTableViewController.swift */; };
 		DA5D0FC71E2726B2009534C2 /* PositivityNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D0FC61E2726B2009534C2 /* PositivityNavigationController.swift */; };
+		DA73DF201E27C0A9009E9B7D /* DaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */; };
+		DA73DF221E27C75E009E9B7D /* PositivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DA0C4A251E2614C300C8F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0C4A311E26159100C8F86B /* MonthsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthsTableViewController.swift; sourceTree = "<group>"; };
 		DA5D0FC61E2726B2009534C2 /* PositivityNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositivityNavigationController.swift; sourceTree = "<group>"; };
+		DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysTableViewController.swift; sourceTree = "<group>"; };
+		DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositivityDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				DA0C4A0F1E2614C200C8F86B /* Info.plist */,
 				DA0C4A311E26159100C8F86B /* MonthsTableViewController.swift */,
 				DA5D0FC61E2726B2009534C2 /* PositivityNavigationController.swift */,
+				DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */,
+				DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */,
 			);
 			path = Positivity365;
 			sourceTree = "<group>";
@@ -268,10 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA73DF201E27C0A9009E9B7D /* DaysTableViewController.swift in Sources */,
 				DA0C4A061E2614C200C8F86B /* SecondViewController.swift in Sources */,
 				DA0C4A021E2614C200C8F86B /* AppDelegate.swift in Sources */,
 				DA0C4A321E26159100C8F86B /* MonthsTableViewController.swift in Sources */,
 				DA5D0FC71E2726B2009534C2 /* PositivityNavigationController.swift in Sources */,
+				DA73DF221E27C75E009E9B7D /* PositivityDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

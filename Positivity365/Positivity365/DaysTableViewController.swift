@@ -1,16 +1,20 @@
 //
-//  MonthsTableViewController.swift
+//  DaysTableViewController.swift
 //  Positivity365
 //
-//  Created by Paul Keller on 11/1/17.
+//  Created by Paul Keller on 12/01/2017.
 //  Copyright © 2017 Paul Keller. All rights reserved.
 //
 
 import UIKit
 
-class MonthsTableViewController: UITableViewController {
+class DaysTableViewController: UITableViewController {
     
-    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    /*
+    var days = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"]
+    */
+    
+    var days = ["01/01/2017", "07/01/2017"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,15 +40,14 @@ class MonthsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return months.count
+        return days.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Months", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "day", for: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = months[indexPath.row]
+        cell.textLabel?.text = days[indexPath.row]
 
         return cell
     }
