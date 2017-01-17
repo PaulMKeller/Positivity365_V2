@@ -18,6 +18,8 @@
 		DA5D0FC71E2726B2009534C2 /* PositivityNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D0FC61E2726B2009534C2 /* PositivityNavigationController.swift */; };
 		DA73DF201E27C0A9009E9B7D /* DaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */; };
 		DA73DF221E27C75E009E9B7D /* PositivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */; };
+		DA8C78E21E2DF6DD00E303DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8C78E11E2DF6DD00E303DD /* CoreData.framework */; };
+		DA8C78E51E2DF8D600E303DD /* MyDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA8C78E31E2DF8D600E303DD /* MyDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		DA5D0FC61E2726B2009534C2 /* PositivityNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositivityNavigationController.swift; sourceTree = "<group>"; };
 		DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysTableViewController.swift; sourceTree = "<group>"; };
 		DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositivityDetailViewController.swift; sourceTree = "<group>"; };
+		DA8C78E11E2DF6DD00E303DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA8C78E41E2DF8D600E303DD /* MyDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDataModel.xcdatamodel; sourceTree = "<group>"; };
+		DACD9F0E1E2DEAEB0047427C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8C78E21E2DF6DD00E303DD /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +95,7 @@
 				DA0C4A171E2614C300C8F86B /* Positivity365Tests */,
 				DA0C4A221E2614C300C8F86B /* Positivity365UITests */,
 				DA0C49FF1E2614C200C8F86B /* Products */,
+				DACD9F0D1E2DEAEB0047427C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +122,7 @@
 				DA5D0FC61E2726B2009534C2 /* PositivityNavigationController.swift */,
 				DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */,
 				DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */,
+				DA8C78E31E2DF8D600E303DD /* MyDataModel.xcdatamodeld */,
 			);
 			path = Positivity365;
 			sourceTree = "<group>";
@@ -135,6 +143,15 @@
 				DA0C4A251E2614C300C8F86B /* Info.plist */,
 			);
 			path = Positivity365UITests;
+			sourceTree = "<group>";
+		};
+		DACD9F0D1E2DEAEB0047427C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA8C78E11E2DF6DD00E303DD /* CoreData.framework */,
+				DACD9F0E1E2DEAEB0047427C /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +295,7 @@
 				DA0C4A061E2614C200C8F86B /* SecondViewController.swift in Sources */,
 				DA0C4A021E2614C200C8F86B /* AppDelegate.swift in Sources */,
 				DA0C4A321E26159100C8F86B /* MonthsTableViewController.swift in Sources */,
+				DA8C78E51E2DF8D600E303DD /* MyDataModel.xcdatamodeld in Sources */,
 				DA5D0FC71E2726B2009534C2 /* PositivityNavigationController.swift in Sources */,
 				DA73DF221E27C75E009E9B7D /* PositivityDetailViewController.swift in Sources */,
 			);
@@ -551,6 +569,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA8C78E31E2DF8D600E303DD /* MyDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA8C78E41E2DF8D600E303DD /* MyDataModel.xcdatamodel */,
+			);
+			currentVersion = DA8C78E41E2DF8D600E303DD /* MyDataModel.xcdatamodel */;
+			path = MyDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DA0C49F61E2614C200C8F86B /* Project object */;
 }
