@@ -15,6 +15,8 @@
 		DA0C4A191E2614C300C8F86B /* Positivity365Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C4A181E2614C300C8F86B /* Positivity365Tests.swift */; };
 		DA0C4A241E2614C300C8F86B /* Positivity365UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C4A231E2614C300C8F86B /* Positivity365UITests.swift */; };
 		DA0C4A321E26159100C8F86B /* MonthsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C4A311E26159100C8F86B /* MonthsTableViewController.swift */; };
+		DA3F02D61E30C3F4001DE75A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F02D51E30C3F4001DE75A /* DataController.swift */; };
+		DA3F03161E30C62D001DE75A /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F03141E30C62D001DE75A /* Note+CoreDataClass.swift */; };
 		DA5D0FC71E2726B2009534C2 /* PositivityNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D0FC61E2726B2009534C2 /* PositivityNavigationController.swift */; };
 		DA73DF201E27C0A9009E9B7D /* DaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */; };
 		DA73DF221E27C75E009E9B7D /* PositivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */; };
@@ -54,6 +56,8 @@
 		DA0C4A231E2614C300C8F86B /* Positivity365UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Positivity365UITests.swift; sourceTree = "<group>"; };
 		DA0C4A251E2614C300C8F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0C4A311E26159100C8F86B /* MonthsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthsTableViewController.swift; sourceTree = "<group>"; };
+		DA3F02D51E30C3F4001DE75A /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		DA3F03141E30C62D001DE75A /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "Positivity365/Note+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DA5D0FC61E2726B2009534C2 /* PositivityNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositivityNavigationController.swift; sourceTree = "<group>"; };
 		DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysTableViewController.swift; sourceTree = "<group>"; };
 		DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositivityDetailViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 		DA0C49F51E2614C200C8F86B = {
 			isa = PBXGroup;
 			children = (
+				DA3F03141E30C62D001DE75A /* Note+CoreDataClass.swift */,
 				DA0C4A001E2614C200C8F86B /* Positivity365 */,
 				DA0C4A171E2614C300C8F86B /* Positivity365Tests */,
 				DA0C4A221E2614C300C8F86B /* Positivity365UITests */,
@@ -123,6 +128,7 @@
 				DA73DF1F1E27C0A8009E9B7D /* DaysTableViewController.swift */,
 				DA73DF211E27C75E009E9B7D /* PositivityDetailViewController.swift */,
 				DA8C78E31E2DF8D600E303DD /* MyDataModel.xcdatamodeld */,
+				DA3F02D51E30C3F4001DE75A /* DataController.swift */,
 			);
 			path = Positivity365;
 			sourceTree = "<group>";
@@ -296,6 +302,8 @@
 				DA0C4A021E2614C200C8F86B /* AppDelegate.swift in Sources */,
 				DA0C4A321E26159100C8F86B /* MonthsTableViewController.swift in Sources */,
 				DA8C78E51E2DF8D600E303DD /* MyDataModel.xcdatamodeld in Sources */,
+				DA3F02D61E30C3F4001DE75A /* DataController.swift in Sources */,
+				DA3F03161E30C62D001DE75A /* Note+CoreDataClass.swift in Sources */,
 				DA5D0FC71E2726B2009534C2 /* PositivityNavigationController.swift in Sources */,
 				DA73DF221E27C75E009E9B7D /* PositivityDetailViewController.swift in Sources */,
 			);
